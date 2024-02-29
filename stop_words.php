@@ -294,5 +294,3 @@ $StopWords = array(
     'yourselves' => 1,
     'the' => 1
 );
-̥
-console.log("🚀 ~ ̥:", ̥)
