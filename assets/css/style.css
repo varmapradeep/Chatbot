@@ -1,0 +1,74 @@
+.unread {
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+.messages-box {
+  height: 26rem;
+  overflow: auto;
+}
+.online-circle {
+  border-radius: 5rem;
+  width: 5rem;
+  height: 5rem;
+}
+.messages-title {
+  float: right;
+  margin: 0px 5px;
+}
+.message-img {
+  float: right;
+  margin: 0px 5px;
+}
+.message-header {
+  text-align: right;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.messages-list li.messages-you .messages-title {
+  float: left;
+}
+.messages-list li.messages-you .message-img {
+  float: left;
+}
+.messages-list li.messages-you p {
+  float: left;
+  text-align: left;
+}
+.messages-list li.messages-you .message-header {
+  text-align: left;
+}
+.messages-list li p {
+  max-width: 60%;
+  padding: 1px 5px;
+  border: #e6e7e9 1px solid;
+  border-radius: 0.5rem;
+  margin-left: 5px;
+}
+.messages-list li.messages-me p {
+  float: right;
+  background-color: #1a04ff96;
+  color: white;
+}
+
+.messages-box p, .messages-box li {
+  line-height: 20px;
+}
+
+a.clear-chat-history:not([href]) {
+  border-radius: 5rem;
+  border: #e6e7e9 1px solid;
+  color: red;
+  padding: 5px 20px;
+  display: block;
+  width: 200px;
+  text-align: center;
+}
+
+img.footer-logo {
+  height:35px;
+  background: var(--bg-color);
+  border-radius:20%;
+  padding:4px;
+  margin:4px;
+}
